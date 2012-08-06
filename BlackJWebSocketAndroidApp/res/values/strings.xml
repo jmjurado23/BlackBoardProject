@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WebSocketRedesActivity!</string>
+    <string name="app_name">BlackBoardMobile</string>
+    <string name="login">Usuario: </string>
+    <string name="pass">Contraseña:</string>
+    <string name="guess">guess</string>
+    <string name="entermessage">Introduce tu mensaje:</string>
+    <string name="send">Enviar</string>
+    <string name="clear">Limpiar pantalla</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Conectar</string>
+    <string name="username">Usuario</string>
+    <string name="url">URL jWebSocketServer</string>
+    <string name="urlDefect">ws://jwebsocket.org:8787</string>
+    <string name="nameDefault">guess</string>
+    <string name="passDefault">guess</string>
+    <string name="title">BlackBoardMobile</string>
+    <string name="logout">Cerrar sesion</string>
+    <string name="buttontext">Texto</string>
+    <string name="buttonimage">Imagen</string>
+    <string name="buttondraw">Dibujo</string>
+    <string name="buttonlog">Log</string>
+    <string name="chattitle">Chat</string>
+    <string name="imagetitle">Image</string>
+    <string name="logtitle">Log</string>
+    <string name="inserttext">Inserte el texto aquí</string>
+    <string name="musictitle">Música</string>
+	<string name="waiting">Por favor, espere</string>
+	<string name="sendmusic">Se está enviando la canción </string>
+	<string name="sendImage">Se está enviando una imagen </string>
+	<string name="accept">Aceptar</string>
+	<string name="disconnect">No se ha podido conectar con el servidor</string>
+	<string name="reconnect">Cambie su user o pass</string>
+</resources>

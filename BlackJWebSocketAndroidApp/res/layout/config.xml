@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/cfgLytConfig"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/metalbackground"
+>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:shadowColor="#ffff00"
+       		android:layout_marginRight="15dp" 
+       		android:layout_marginLeft="15dp"
+       		android:layout_marginTop="50dp"
+       		android:layout_marginBottom="5dp"
+            android:shadowRadius="10"
+            android:text="@string/title"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#a3c424" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginRight="15dp" 
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/cfgLblURL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/url" />
+
+        <EditText
+            android:id="@+id/cfgTxfURL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/urlDefect"
+            android:textSize="18sp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp" 
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:id="@+id/cfgLblUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username" />
+
+        <EditText
+            android:id="@+id/cfgTxfUsername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/nameDefault"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp" 
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/cfgLblPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pass" />
+
+        <EditText
+            android:id="@+id/cfgTxfPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:password="true"
+            android:text="@string/passDefault"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+	<LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="1"
+      android:paddingTop="15sp">
+		<Button
+		android:id="@+id/cfgBtnCancel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/cancel"
+		android:layout_weight="1"
+		>
+		</Button>
+		<Button
+	android:id="@+id/cfgBtnSave"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/save"
+	android:layout_weight="1"
+	>
+		</Button>
+	</LinearLayout>
+</LinearLayout>

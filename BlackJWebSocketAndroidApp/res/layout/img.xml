@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/headerimg"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="#a3c424" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/imagetitle"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_below="@id/headerimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Gallery
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewBig"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sendButton"
+        android:layout_below="@id/linearLayout1"
+        android:src="@drawable/deletelog" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#a3c424"
+        android:text="@string/send"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</RelativeLayout>

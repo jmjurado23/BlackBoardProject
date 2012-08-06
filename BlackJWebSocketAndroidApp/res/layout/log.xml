@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="#a3c424" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/logtitle"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.86"
+        android:orientation="vertical" >
+
+
+        <EditText
+            android:id="@+id/TextViewLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.53"
+            android:ems="10"
+            android:textColor="#000000"
+            android:text="@string/hello"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout 
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/clearLogButton"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="@string/clear"
+                android:background="#a3c424"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+       
+    </LinearLayout>
+
+</LinearLayout>
